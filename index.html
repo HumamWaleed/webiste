@@ -1,51 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Humam Waleed - Attorney</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animations.css">
-    <link rel="stylesheet" href="css/dark-mode.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>المحامي همام وليد - خبير التحكيم التجاري</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Hero Section -->
-    <header class="hero" id="home">
-        <div class="justice-scale">
-            <img src="assets/icons/scale-icon.svg" alt="Justice Scale" class="scale-animation">
-        </div>
-        <h1 class="typewriter">Humam Waleed</h1>
-        <p class="subtitle">Commercial Arbitration Specialist</p>
-        <div class="contact-info">
-            <a href="mailto:humam202w@gmail.com">humam202w@gmail.com</a>
-            <span>+964 770 0507I10</span>
+    <!-- القسم الرئيسي -->
+    <header class="hero-section">
+        <nav class="glass-nav">
+            <span class="logo">⚖️ H.W</span>
+            <div class="nav-links">
+                <a href="#about">نبذة عني</a>
+                <a href="#services">الخدمات</a>
+                <a href="#bots">بوتاتي</a>
+                <a href="#contact">تواصل</a>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+            <h1 class="gold-gradient">همام وليد</h1>
+            <p class="specialty">محامي متخصص في التحكيم التجاري والقضايا المدنية</p>
+            <div class="scales-animation">⚖️</div>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <div class="timeline-container" id="timeline"></div>
+    <!-- قسم البوتات -->
+    <section id="bots" class="bots-section">
+        <h2>بوتاتي القانونية الذكية</h2>
+        <div class="bot-grid">
+            <a href="https://t.me/The_law4bot" class="bot-card" target="_blank">
+                <div class="bot-icon">🤖</div>
+                <h3>بوت القانون العام</h3>
+                <p>استشارات قانونية فورية</p>
+            </a>
+            <!-- أضف باقي البوتات بنفس الطريقة -->
+        </div>
     </section>
-
-    <!-- Legal Bots -->
-    <section id="bots" class="section dark-section">
-        <h2>My Legal Bots</h2>
-        <div class="bot-grid" id="bot-container"></div>
-    </section>
-
-    <!-- Documents -->
-    <section id="documents" class="section">
-        <h2>Case Documents</h2>
-        <div class="document-viewer" id="doc-viewer"></div>
-    </section>
-
-    <!-- Scripts -->
-    <script src="js/script.js"></script>
-    <script src="js/bot-animations.js"></script>
-    <script src="js/consultation.js"></script>
-    <script src="js/document-viewer.js"></script>
-    <script src="js/timeline.js"></script>
 </body>
 </html>
