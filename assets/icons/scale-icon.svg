@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <!-- Custom justice scale SVG code -->
+    <path d="M50 10 L50 30 M30 30 L70 30 M40 30 L40 70 M60 30 L60 50" 
+          stroke="var(--gold)" stroke-width="3"/>
+    <circle cx="40" cy="70" r="8" fill="var(--primary)"/>
+    <circle cx="60" cy="50" r="8" fill="var(--primary)"/>
+</svg>

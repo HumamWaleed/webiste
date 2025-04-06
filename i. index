@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humam Waleed - Legal Consultant</title>
+    <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="justice-scale-animation">
+            <img src="assets/icons/scale-icon.svg" alt="Justice Scale">
+        </div>
+        <h1 class="typewriter-text">Humam Waleed</h1>
+        <p>Commercial Arbitration Specialist</p>
+    </header>
+
+    <!-- Bot Cards Section -->
+    <section id="legal-bots">
+        <!-- Dynamically loaded via bot-animations.js -->
+    </section>
+    
+    <script src="js/script.js"></script>
+    <script src="js/bot-animations.js"></script>
+	<section id="legal-documents">
+    <h2>Case Documents</h2>
+    <div class="document-gallery">
+        <!-- Filled dynamically by document-viewer.js -->
+    </div>
+</section>
+</body>
+</html>

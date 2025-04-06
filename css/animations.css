@@ -1,0 +1,36 @@
+/* Typewriter Effect */
+.typewriter {
+    overflow: hidden;
+    border-right: 3px solid var(--accent);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--accent) }
+}
+
+/* Justice Scale Animation */
+.scale-animation {
+    animation: balance 3s ease-in-out infinite alternate;
+    transform-origin: top center;
+}
+
+@keyframes balance {
+    0% { transform: rotate(-15deg) }
+    100% { transform: rotate(15deg) }
+}
+
+/* Bot Card Hover */
+.bot-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(243, 156, 18, 0.4);
+}

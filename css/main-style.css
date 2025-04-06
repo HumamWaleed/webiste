@@ -1,0 +1,48 @@
+:root {
+    --primary: #2c3e50;
+    --secondary: #1a252f;
+    --accent: #f39c12;
+    --text: #333;
+    --light: #f8f9fa;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('../assets/images/hero-bg.jpg') center/cover;
+    color: white;
+    padding: 0 20px;
+}
+
+.justice-scale {
+    margin-bottom: 2rem;
+}
+
+/* Timeline Styling */
+.timeline-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Document Viewer */
+.document-viewer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
